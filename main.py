@@ -3,7 +3,7 @@ import json
 from datetime import datetime, timedelta
 import os
 import sqlite3
-from send_mail import send_mail
+from send_mail import send_email
 
 base_url = "https://services.nvd.nist.gov/rest/json/cves/2.0"
 file_path = f"{datetime.now().strftime('%Y_%m_%d_')}data.json"
